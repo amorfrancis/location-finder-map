@@ -7,8 +7,8 @@
 }
 
 #panel_search_results {
-    top: 396px;
-    height: calc(100% - 396px);
+    top: 389px;
+    height: calc(100% - 389px);
     overflow-y: scroll;
 }
 
