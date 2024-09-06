@@ -234,7 +234,7 @@ html {
 }
 
 #finder_form::before {
-    content: 'Find Our Products';
+    content: 'Find Ollitas Near You';
     display: block;
     color: #fff;
     font-size: 40px;
