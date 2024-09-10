@@ -241,7 +241,7 @@ html {
     content: 'Find Bikini Island Near You';
     display: block;
     color: #fff;
-    font-size: 35px;
+    font-size: 26px;
     margin-bottom: 15px;
     text-align: left;
 }
@@ -253,7 +253,7 @@ html {
     }
 
     #finder_form::before {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     #finder {
