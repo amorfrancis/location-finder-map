@@ -298,6 +298,12 @@ html {
     }
 }
 
+@media (max-width: 430px) {
+        #finder_form::before {
+        font-size: 31px;
+    }
+}
+
 #nonFooter {
     background-repeat: no-repeat;
     background-size: cover;
