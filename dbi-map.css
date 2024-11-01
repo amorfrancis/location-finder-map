@@ -7,8 +7,8 @@
 }
 
 #panel_search_results {
-    top: 396px;
-    height: calc(100% - 396px);
+    top: 378px;
+    height: calc(100% - 378px);
     overflow-y: scroll;
 }
 
@@ -58,7 +58,7 @@ fieldset {
 }
 
 #finder_table thead, #finder_table .finder_miles {
-    color: #89ab9d;
+    color: #672f25;
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -137,16 +137,17 @@ html {
     height: 32px;
     border-radius: 0;
     border: 0;
-    font-size: 10px;
+    font-size: 12px;
     text-transform: uppercase;
     font-weight: bold;
     padding: 0 15px !important;
-    color: #563627;
+    color: #fff;
     margin: 15px 0 0 0;
-    background-color: #fff;
+    background-color: #f23a30;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor:pointer
 }
 
 #finder input[type='text'], #finder select {
@@ -233,7 +234,7 @@ html {
     margin-bottom: 20px;
 }
 
-#finder_table tfoot, #finder_table tfoot tr, #finder_table td,#finder_table th {
+#finder_table,#finder_table tfoot, #finder_table tfoot tr, #finder_table td, #finder_table th {
     border: none;
 }
 
@@ -254,10 +255,12 @@ html {
 
     #finder_form::before {
         font-size: 30px;
+        text-align: center;
     }
 
     #finder {
         width: 100%;
+        margin: auto;
     }
 
     #panel_search_results {
