@@ -266,6 +266,7 @@ html {
 
     #finder {
         width: 100%;
+        margin:auto;
     }
 
     #panel_search_results {
