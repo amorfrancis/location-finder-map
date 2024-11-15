@@ -248,7 +248,7 @@ html {
     color: #fff;
     font-size: 48px;
     margin-bottom: 15px;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -261,6 +261,7 @@ html {
 
     #finder_form::before {
         font-size: 30px;
+        text-align:center;
     }
 
     #finder {
